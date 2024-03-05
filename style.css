@@ -1,0 +1,109 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    background: #F3F5FC;
+}
+
+main{
+    display: flex;
+    height: 100svh;
+    justify-content: space-between;
+    margin: 0% 2% 0% 5%;
+    align-items: center;
+}
+
+.enter-text{
+    width: 75%;
+}
+
+.logo{
+    width: 120px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.box{
+    margin: 5% 2% 5% 15%;
+    align-items: center;
+}
+
+.text-to-change{
+    font-size: 28px;
+    width: 95%;
+    height: 55svh;
+    color: #0A3871;
+    border: none;
+    background-color: #F3F5FC;
+    resize: none;
+}
+
+.text-to-change::placeholder{
+    color: #0A3871;
+}
+
+.rules{
+    display: flex;
+    font-size: 12px;
+    color: #45565F;
+}
+
+.rules p{
+    margin-left: 2%;
+}
+
+.buttons{
+    margin: 5% 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons input{
+    width: 30%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #0A3871;
+}
+
+.btn-encriptar{
+    color: white;
+    background-color: #0A3871;
+}
+
+.btn-desencriptar{
+    color: #0A3871;
+    background-color: #D8DFE8;
+}
+
+.results{
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 20%;
+    height: 90svh;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.results img{
+    width: 80%;
+}
+
+.text-answer{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px 10px;
+}
+
+.text-indications{
+    margin: 10px;
+    color: #495057;
+}
+
+@media screen and (max-width:480px) {
+    
+}
