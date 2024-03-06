@@ -12,7 +12,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
@@ -22,9 +21,7 @@
 
     <main>
         <section class="enter-text">
-            <div class="logo">
-                <h1><img src="img/logo.png"></h1>
-            </div>
+            <img src="img/logo.png" class="logo">
             <div class="box">
                 <form>
                     <textarea type="text" id="write-text" class="text-to-change" placeholder="Ingrese el texto aqui"
@@ -35,27 +32,25 @@
                     <p>Solo letras minúsculas y sin acentos</p>
                 </div>
                 <div class="buttons">
-                    <input type="submit" value="Encriptar" class="btn-encriptar">
-                    <input type="submit" value="Desencriptar" class="btn-desencriptar">
+                    <input type="submit" value="Encriptar" class="btn-encriptar" onclick="cifrar();">
+                    <input type="submit" value="Desencriptar" class="btn-desencriptar" onclick="descifrar();">
                 </div>
         </section>
         </div>
 
         <section class="results">
             <div>
-                <img src="img/person.png">
-                <p class="text-answer">Ningún mensaje fue encontrado</p>
-                <p class="text-indications">Ingresa el texto que deseas encriptar o desencriptar</p>
+                <div id="imgCifradoInicial"></div>
+                <p class="text-answer"></p>
+                <p class="text-indications"></p>
             </div>
         </section>
-
-
     </main>
 
     <footer>
 
     </footer>
-
+    <script src="app.js"></script>
 </body>
 
 </html>

@@ -20,8 +20,7 @@ main{
     width: 75%;
 }
 
-.logo{
-    width: 120px;
+#logo{
     text-align: center;
     margin-top: 2%;
 }
