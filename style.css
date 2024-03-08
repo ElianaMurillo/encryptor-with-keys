@@ -111,6 +111,9 @@ main{
 .text-indications{
     margin: 10px;
     color: #495057;
+    max-height: 100svh;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .btn-copiar{
