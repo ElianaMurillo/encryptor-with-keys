@@ -39,10 +39,13 @@
         </div>
 
         <section class="results">
-            <div>
+            <div class="box-results">
                 <div id="imgCifradoInicial"></div>
                 <p class="text-answer"></p>
-                <p class="text-indications"></p>
+                <p id='answer-cifrado' class="text-indications"></p>
+            </div>
+            <div id="btnCopiarTexto">
+                <input type="submit" value="Copiar" class="btn-copiar" onclick="copyTextClipboard();">
             </div>
         </section>
     </main>
